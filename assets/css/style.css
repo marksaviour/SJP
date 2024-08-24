@@ -34,12 +34,12 @@
   width: 400px;
   transition: width 400ms;
   -webkit-user-drag: none;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgb(38, 57, 77) 0 20px 30px -10px;
   border-radius: 10px;
 }
 
 #carousel div.hideLeft {
-  left: 0%;
+  left: 0;
   opacity: 0;
   transform: translateY(50%) translateX(-50%);
 }
@@ -152,5 +152,22 @@
   }
   .clip-top-start {
      clip-path: none;
+  }
+}
+
+
+/* Gallery Layout Mobile */
+.gallery-mobile{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .gallery-desktop {
+    display: none;
+    visibility: hidden;
+  }
+  .gallery-mobile {
+    display: block;
+    visibility: visible;
   }
 }

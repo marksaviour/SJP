@@ -151,7 +151,6 @@ const $$ = str => document.querySelectorAll(str);
         },
         init: function() {
             document.addEventListener("keydown", app.carousel.keypress);
-            // $('#carousel').addEventListener("click", app.carousel.select, true);
             $("#carousel").addEventListener("mousedown", app.carousel.doDown);
             $("#carousel").addEventListener("touchstart", app.carousel.doDown);
             $("#carousel").addEventListener("mouseup", app.carousel.doUp);
