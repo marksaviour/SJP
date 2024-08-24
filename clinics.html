@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico">
+    <meta name="msapplication-config" content="./assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Title -->
+    <title>St John's Pharmacy Gozo</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg navbar-togglable fixed-top">
+      <div class="container">
+
+        <!-- Navbar brand (mobile) -->
+        <a class="navbar-brand d-lg-none" href="./index.html"><img src="assets/img/logo.png" alt=""></a>
+
+        <!-- Navbar toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+        <!-- Navbar collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <!-- Navbar nav -->
+          <ul class="navbar-nav" style="width: 310px">
+            <li class="nav-item"><a class="nav-link " href="https://stjohnhealth360.com">Health 360</a></li>
+            <li class="nav-item"><a class="nav-link " href="https://stjohnvet.com">Veterinary</a></li>
+            <li class="nav-item"><a class="nav-link " href="clinics.html">Clinics</a></li>
+          </ul>
+
+          <!-- Navbar brand -->
+          <a class="navbar-brand d-none d-lg-flex mx-lg-auto" href="./index.html"><img src="assets/img/logo.png" alt=""></a>
+
+          <!-- Navbar nav -->
+          <ul class="navbar-nav" style="width: 310px">
+            <li class="nav-item"><a class="nav-link " href="./about-us.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link " href="./contact-us.html">Contact Us</a></li>
+            <li class="nav-item"><a class="nav-link " href="./gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <!-- Header -->
+    <header data-jarallax data-speed=".8" style="background-image: url(assets/img/test.jpg);">
+      <div class="pt-10 pb-8 pt-md-15 pb-md-13 bg-black-50">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6 text-center">
+              <!-- Heading -->
+              <h1 class="display-6 fw-bold text-white">
+                Services
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!-- Services -->
+    <section class="py-7 py-md-9 border-bottom">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6 text-center">
+            <!-- Heading -->
+            <h2 class="mb-2">Clinics</h2>
+            <!-- Subheading -->
+            <p class="mb-6">Discover a wide range of services designed to cater your every need</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <!-- Navigation -->
+            <div class="nav justify-content-center mb-6" id="MainStore" role="tablist">
+              <a class="active hidden" id="list" data-bs-toggle="tab" href="#service-list" role="tab"></a>
+              <a class="nav-link" id="Pain Clinic" data-bs-toggle="tab" href="#service-1" role="tab">Pain Clinic</a>
+              <a class="nav-link" id="Audiologist" data-bs-toggle="tab" href="#service-2" role="tab">Audiologist</a>
+              <a class="nav-link" id="Physiotherapist" data-bs-toggle="tab" href="#service-3" role="tab">Physiotherapist</a>
+              <a class="nav-link" id="Orthopaedic-Surgeon" data-bs-toggle="tab" href="#service-4" role="tab">Orthopaedic Surgeon</a>
+              <a class="nav-link" id="Speech-Therapist" data-bs-toggle="tab" href="#service-5" role="tab">Speech Therapist</a>
+              <a class="nav-link" id="Dermatologist" data-bs-toggle="tab" href="#service-6" role="tab">Dermatologist</a>
+              <a class="nav-link" id="Derma-Cosmetic-specialist" data-bs-toggle="tab" href="#service-7" role="tab">Derma Cosmetic Specialist</a>
+              <a class="nav-link" id="Counsellor" data-bs-toggle="tab" href="#service-8" role="tab">Counsellor</a>
+              <a class="nav-link" id="Podiatrist-&-Orthotics" data-bs-toggle="tab" href="#service-9" role="tab">Podiatrist & Orthotics</a>
+              <a class="nav-link" id="Medical-Grade-Insoles" data-bs-toggle="tab" href="#service-10" role="tab">Medical Grade Insoles</a>
+              <a class="nav-link" id="Paediatrician" data-bs-toggle="tab" href="#service-11" role="tab">Paediatrician</a>
+              <a class="nav-link" id="Gynaecologist-&-Obstetrician" data-bs-toggle="tab" href="#service-12" role="tab">Gynaecologist & Obstetrician</a>
+              <a class="nav-link" id="ENT" data-bs-toggle="tab" href="#service-13" role="tab">Ear, Nose & Throat (ENT)</a>
+              <a class="nav-link" id="Vascular-Surgeon" data-bs-toggle="tab" href="#service-14" role="tab">Vascular Surgeon</a>
+              <a class="nav-link" id="General-Practitioner" data-bs-toggle="tab" href="#service-15" role="tab">General Practitioner</a>
+              <a class="nav-link" id="Allergy-Testing" data-bs-toggle="tab" href="#service-16" role="tab">Allergy Testing</a>
+              <a class="nav-link" id="Beauty-Therapist" data-bs-toggle="tab" href="#service-17" role="tab">Beauty Therapist</a>
+              <a class="nav-link" id="Body-Massage-Therapy" data-bs-toggle="tab" href="#service-18" role="tab">Body & Massage Therapy</a>
+              <a class="nav-link" id="Trichologist" data-bs-toggle="tab" href="#service-19" role="tab">Trichologist</a>
+              <a class="nav-link" id="Psychologist" data-bs-toggle="tab" href="#service-20" role="tab">Psychologist</a>
+              <a class="nav-link" id="Educational-Psychologist" data-bs-toggle="tab" href="#service-21" role="tab">Educational Psychologist</a>
+              <a class="nav-link" id="Psychiatric-Specialist" data-bs-toggle="tab" href="#service-22" role="tab">Psychiatric Specialist</a>
+              <a class="nav-link" id="Dietitian" data-bs-toggle="tab" href="#service-23" role="tab">Dietitian </a>
+              <a class="nav-link" id="DNA" data-bs-toggle="tab" href="#service-24" role="tab">Forensic Consultant (DNA)</a>
+              <a class="nav-link" id="General-Surgeon" data-bs-toggle="tab" href="#service-25" role="tab">General Surgeon</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <!-- Content -->
+            <div class="tab-content" id="offered-services">
+              <div class="tab-pane fade show active" id="service-list" role="tabpanel">
+                <img class="img-fluid mb-4" src="assets/img/services/services-list.jpg" alt="A list of services offered at the pharmacy" />
+              </div>
+
+              <div class="tab-pane fade" id="service-1" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/pain-clinic.jpg" alt="Pain Clinic">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Pain Clinic<br>Dr. Andrew Agius</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-2" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/audiologist.jpg" alt="Audiologist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Audiologist<br>Mr. Chris Deguara</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-3" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/physiotherapist.jpg" alt="Physiotherapist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Physiotherapist<br>Ms. Nathalene Galea</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-4" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/orthopedic-surgeon.jpg" alt="Orthopedic Surgeon">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Orthopedic Surgeon<br>Mr. Ray Gatt & Mr. Alex Sultana</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-5" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/speech-therapist.jpg" alt="Speech Therapist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Speech Therapist<br>Ms. Fabienne Portelli</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-6" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/dermatologist.jpg" alt="Dermatologist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Dermatologist<br>Dr. Eileen Borg</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-7" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/derma-cosmetic-specialist.jpg" alt="Derma Cosmetic Specialist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Derma Cosmetic Specialist<br>Dr. David Grech</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-8" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0;">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/counsellor.jpg" alt="Counsellor">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Counsellor<br>Ms. Josianne Cordina & Ms. Sara Amin Omran</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-9" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/podiatrist-orthotics.jpg" alt="Podiatrist & Orthotics">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Podiatrist & Orthotics<br>Dr. Keith Montabello</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-10" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/medical-grade-insoles.jpg" alt="Medical Grade Insoles">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Medical Grade Insoles<br>Mr. Josef Cefai</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-11" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/pediatrician.jpg" alt="Pediatrician">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Pediatrician<br>Dr. Patrick Sammut</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-12" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/gynaecologist-obstetrician.jpg" alt="Gynaecologist & Obstetrician">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Gynaecologist & Obstetrician<br>Mrs. Mignonne Vella</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-13" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/ent.jpg" alt="ENT">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Ear, Nose & Throat<br>Dr. Ryan Grech</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-14" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/vascular-surgeon.jpg" alt="Vascular Surgeon">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Vascular Surgeon<br>Mr. Alexey Vinakur</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-15" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/general-practitioner.jpg" alt="General Practitioner">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">General Practitioner<br>Dr. Nathalie Ellis</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-16" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/allergy-testing.jpg" alt="Allergy Testing">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Allergy Testing<br>Mr. George Grech</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-17" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/beauty-therapist.jpg" alt="Beauty Therapist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Beauty Therapist<br>Mr. Anoinette Hili</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-18" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/body-massage-therapy.jpg" alt="Body & Massage Therapy">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Body & Massage Therapy<br>Ms. Catherine Dando</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-19" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/trichologist.jpg" alt="Tricologist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Tricologist<br>Ms. Lowella Catania Sammut</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-20" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/psychologist.jpg" alt="Psychologist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Psychologist<br>Ms. Liza Azzopardi</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-21" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/educational-psychologist.jpg" alt="Educational Psychologist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Educational Psychologist<br>Mr. Ian Azzopardi Meli</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-22" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/psychiatric-specialist.jpg" alt="Psychiatric Specialist">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Psychiatric Specialist<br>Dr. Gabriel Ellul</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-23" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/dietitian.jpg" alt="Dietitian">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Dietitian<br>Ms. Heather Galea</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-24" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/dna.jpg" alt="DNA">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">Forensic Consultant<br>Mr. Chris Farrugia</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade" id="service-25" role="tabpanel">
+                <div class="container">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6 order-md-1" style="padding-left: 0">
+                      <img class="img-fluid mw-md-120 clip-top-end" src="assets/img/services/surgeon.jpg" alt="General Surgeon">
+                    </div>
+
+                    <div class="col-md-5 order-md-2">
+                      <p class="lead text-black text-center">General Surgeon<br>Dr. Matthew Sammut</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="mb-md-0 pt-5 text-center "><a class="btn btn-outline-primary" href="contact-us.html">Contact Us</a></p>
+      </div>
+    </section>
+
+
+
+    <!-- MAP -->
+    <section class="bg-light">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12905.936135999978!2d14.2605819!3d36.0328912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130fb4eace191541%3A0x651a7cfabbb5ddea!2sSt.%20John&#39;s%20Pharmacy!5e0!3m2!1sen!2smt!4v1705185918439!5m2!1sen!2smt" width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="py-7 py-md-9 bg-black">
+      <div class="container px-4">
+        <div class="row gx-7">
+          <!-- Useful Links -->
+          <div class="col-sm-4">
+            <h5 class="text-xs text-primary">
+              About Us
+            </h5>
+            <p class="mb-6">
+              At Saint John's Pharmacy, our mission is to enhance the health and well-being of our customers by offering a comprehensive range of high-quality medications, health products, and personalized healthcare services. We strive to be a cornerstone of health support, ensuring that every customer receives the attention, care, and expert advice they need to lead a healthy life.
+            </p>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="col-sm-4">
+            <h5 class="text-xs text-primary">
+              Contact info
+            </h5>
+            <ul class="list-unstyled mb-6">
+              <li class="d-flex mb-2">
+                <div class="fas fa-map-marker-alt me-3 mt-2 fs-sm"></div>
+                74, Independence Street
+                <br>Xewkija, Gozo
+                <br>XWK1028
+              </li>
+              <li class="d-flex mb-2">
+                <div class="fas fa-phone me-3 mt-2 fs-sm"></div>
+                +356 21563052
+              </li>
+              <li class="d-flex">
+                <div class="far fa-envelope me-3 mt-2 fs-sm"></div> <a href="mailto:info@stjohnpharma4u.com">info@stjohnpharma4u.com</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Opening Hours -->
+          <div class="col-sm-4">
+            <h5 class="text-xs text-primary">
+              Opening hours
+            </h5>
+            <div class="mb-3">
+              <div class="text-xs">Monday - Saturday</div>
+              <div class="text-xs">08:00 AM - 07:30 PM</div>
+            </div>
+            <div class="mb-6">
+              <div class="text-xs">Sundays & Public Holidays</div>
+              <div class="text-xs">Open on select days</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex align-items-center">
+              <hr class="hr-sm me-3" style="height: 1px;" /> &copy; 2023 St John's Pharmacy. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+
+    <!-- TOAST -->
+    <div class="toast position-fixed bottom-0 start-50 translate-middle-x mb-3 mb-md-5" id="notification" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body mx-auto"></div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <!-- Vendor JS -->
+    <script src="./assets/js/vendor.bundle.js"></script>
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.bundle.js"></script>
+  </body>
+</html>

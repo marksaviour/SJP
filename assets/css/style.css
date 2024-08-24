@@ -1,0 +1,156 @@
+/* Home page Clinic */
+.clinic-mobile {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .clinic-desktop {
+    display: none;
+    visibility: hidden;
+  }
+  .clinic-mobile {
+    display: block;
+    visibility: visible;
+  }
+}
+
+
+
+/* Clinic Carousel */
+#carousel {
+  position: relative;
+  height: 400px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+#carousel div {
+  position: absolute;
+  transition: transform 400ms, left 400ms, opacity 400ms, z-index 0s;
+  opacity: 1;
+}
+
+#carousel div img {
+  width: 400px;
+  transition: width 400ms;
+  -webkit-user-drag: none;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+}
+
+#carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+
+#carousel div.hideLeft img {
+  width: 200px;
+}
+
+#carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+
+#carousel div.hideRight img {
+  width: 200px;
+}
+
+#carousel div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateY(50px) translateX(-50%);
+}
+
+#carousel div.prev img {
+  width: 300px;
+}
+
+#carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+
+#carousel div.prevLeftSecond img {
+  width: 200px;
+}
+
+#carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+
+}
+
+#carousel div.next {
+  z-index: 5;
+  left: 70%;
+  transform: translateY(50px) translateX(-50%);
+}
+
+#carousel div.next img {
+  width: 300px;
+}
+
+#carousel div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+
+#carousel div.nextRightSecond img {
+  width: 200px;
+}
+
+.button-carousel {
+  display: none !important;
+}
+
+.text-display{
+  display: none;
+}
+
+.carousel-text{
+  padding-top: 20px;
+  font-size: 25px;
+  display: none;
+}
+
+.carousel .selected .carousel-text {
+  display: block;
+}
+
+
+
+/* Social Media Mobile */
+.social-alignment {
+  justify-content: left;
+}
+
+@media (max-width: 767px) {
+  .social-alignment {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+/* Clinics Picture-Cut */
+.clip-top-end {
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+@media (max-width: 780px) {
+  .clip-top-end {
+    clip-path: none;
+  }
+  .clip-top-start {
+     clip-path: none;
+  }
+}
